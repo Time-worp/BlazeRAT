@@ -1,14 +1,13 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-
-# Import modules
-from shutil import rmtree
 from telebot import types
 import core.logger as Logger
 import core.messages as Messages
 from services.shell import ChangeDir
 from services.transfer import UploadFile
 from os import path, listdir, getcwd, remove, system
+from services.shell import ChangeDir
+from services.transfer import UploadFile
+from os import path
+from shutil import rmtree
 
 """
 Author : LimerBoy
